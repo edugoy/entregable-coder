@@ -1,0 +1,82 @@
+/* body {
+    background-image: url(../recursos/Fondo-isalop.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+} */
+body{
+    background-color: #fde6ec;
+}
+
+
+/* header */
+header{
+    text-align: center;
+}
+
+.Logo img{
+    width: 940px;
+    height: 400px ;
+    align-items: center;
+}
+
+.Logo {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Menu de navegacion */
+header nav ul{
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 2cm;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* subititulos generales */
+h2{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: x-large;
+}
+/* Productos dentro del main */
+.productos-ind h3, .productos-ind p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.productos-ind {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2cm;
+}
+
+.productos-ind img{
+    width: 350px;
+    height: 200px;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+/* redes de contacto */
+main section ul li{
+    list-style: none;
+    text-align: center;
+}
+
+main section ul li a{
+    color: black;
+    text-decoration: none;
+}
